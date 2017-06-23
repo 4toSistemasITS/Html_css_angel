@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+	<meta name="author" content="Angel Córdova">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+  <div class="w3-container">
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <div class="formulario">
+       <form action="">
+          <center>
+              <h2 >Registrar Horarios</h2>
+          </center>
+          <input type="text" name="Paciente" placeholder="Paciente">
+          <input type="number" name="Dia" placeholder="Dia" max="31" min="1">
+          <input type="month" name="fecha" placeholder="Fecha" maxlength="2" >
+          <input type="time" name="hora" placeholder="hora"maxlength="2">
+          <input type="button" value="Enviar" id="boton" maxlength="2">
+       </form>
+   </div>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Modal Footer</p>
+      </footer>
+    </div>
+  </div>
+</div>
+   
+    
+</body>
+</html>

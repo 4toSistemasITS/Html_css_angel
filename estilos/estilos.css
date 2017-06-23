@@ -1,0 +1,35 @@
+form{
+    width: 300px;
+    margin: inherit;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    
+}
+
+#boton{
+    background: #31384A;
+    color: #fff;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
